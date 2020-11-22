@@ -1,0 +1,18 @@
+{
+  "name": "parcel-plugin-h-include",
+  "version": "0.0.1",
+  "description": "parcel plugin for h-include.js",
+  "main": "index.js",
+  "author": "joserocha",
+  "license": "MIT",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --timeout 50000"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "peerDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
